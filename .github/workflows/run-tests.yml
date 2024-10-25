@@ -1,0 +1,25 @@
+name: Run tests
+
+on:
+  pull_request: ~
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Run tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        neovim_version: ['stable']
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests
+        uses: nvim-neorocks/nvim-busted-action@v1
+        # env:
+          # EXAMPLE_ENV_VAR: ${{ secrets.EXAMPLE_ENV_VAR }}
+        with:
+          nvim_version: ${{ matrix.neovim_version }}
