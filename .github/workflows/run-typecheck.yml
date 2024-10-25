@@ -23,7 +23,7 @@ jobs:
           path: "deps/neodev.nvim"
 
       - name: Type Check Code Base
-        uses: mrcjkb/lua-typecheck-action@v0
+        uses: mrcjkb/lua-typecheck-action@v1.0.0
         with:
           checklevel: Warning
           configpath: .github/workflows/.luarc.json
