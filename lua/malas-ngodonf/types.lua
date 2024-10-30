@@ -6,8 +6,6 @@
 
 ---@class MalasNgodonf
 ---@field setup function: setup the plugin
----@field hello function: Say hello to the user
----@field bye function: Say bye to the user
 
 -- lua/malas-ngodonf/config.lua ---------------------------------------------------------
 
@@ -17,10 +15,13 @@
 ---@field setup function: setup the plugin
 
 ---@class UserOptions
----@field name? string: The name of the user
+---@field social_platform? string: The social platform of the user
+---@field session? table: The media of the user
 
 ---@class DefaultOptions
----@field name string: The name of the user
+---@field social_platform string: The social platform of the user
+---@field session table: The media of the user
 
 ---@class Options
----@field name string: The name of the user
+---@field social_platform string: The social platform of the user
+---@field session table: The media of the user
