@@ -5,7 +5,7 @@
 
 ## Acknowledgements
 
-- [base.nvim](https://github.com/S1M0N38/base.nvim): Plugin template
+- [base.nvim](https://github.com/S1M0N38/base.nvim)
 
 ## License
 
