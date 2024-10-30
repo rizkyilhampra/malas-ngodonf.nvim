@@ -2,4 +2,3 @@ repro/.repro
 doc/*.txt
 .github/workflows/release-github.yml
 .github/workflows/release-luarocks.yml
-*rockspec
