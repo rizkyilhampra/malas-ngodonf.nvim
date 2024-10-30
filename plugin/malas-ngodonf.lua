@@ -1,8 +1,5 @@
--- In this file you define the User commands, i.t how the user will interact with your plugin.
-
 local sub_cmds = {
-  hello = require("malas-ngodonf").hello,
-  bye = require("malas-ngodonf").bye,
+  -- TODO: Add social_platform command for overriding the Options.social_platform
 }
 
 local sub_cmds_keys = {}
