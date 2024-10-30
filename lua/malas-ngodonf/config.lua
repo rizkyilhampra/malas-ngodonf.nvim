@@ -5,12 +5,12 @@ local M = {}
 M.defaults = {
   social_platform = "facebook",
   session = {
-    { name = "Work", duration = "25m" },
-    { name = "Short Break", duration = "5m" },
-    { name = "Work", duration = "25m" },
-    { name = "Short Break", duration = "5m" },
-    { name = "Work", duration = "25m" },
-    { name = "Long Break", duration = "15m" },
+    { name = "Gawe", duration = "25m" },
+    { name = "Ngopi", duration = "5m" },
+    { name = "Gawe", duration = "25m" },
+    { name = "Ngopi", duration = "5m" },
+    { name = "Gawe", duration = "25m" },
+    { name = "Turu", duration = "15m" },
   },
 }
 
